@@ -1,0 +1,128 @@
+body { 
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color:#424242;
+    font-size: 14px;
+    line-height: 24px;
+    background: #f8faf8;
+    overflow-x: hidden;
+}
+/*
+/*-----------------------------------------------------------------------------------*/
+/*  RESET
+/*-----------------------------------------------------------------------------------*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus {
+    outline: 0 !important
+}
+
+iframe {
+    border: none;
+    width:100%;
+}
+::selection {
+    background: #fefac7; /* Safari */
+    color: #555555;
+}
+::-moz-selection {
+    background: #fefac7; /* Firefox */
+    color: #555555;
+}
+
+strong,b{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+input,
+button,
+select,
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a {
+    color: #000;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+}
+a:hover,
+a:focus {
+    color: #3498db;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #060606;
+    font-weight: 300;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+img{ max-width: 100%;}
+p{ font-size: 14px;font-weight: 400;}
+ul,li{ list-style: none;}
+ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.text_left i{
+	padding-right: 10px
+}
+.list-group-item{
+	border:0;
+}
+.compose_btn{
+	border-radius: 0;
+}
+h2.compose_title{
+	text-transform: capitalize;
+	font-weight: normal;
+	color: #322f2f;
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+.page-header{
+	font-size: 22px;
+	margin-bottom: 30px;
+	margin-top: 5px;
+
+}
+.page-header small{
+	font-size: 15px;
+}
+.inbox-title{
+	font-size: 18px;
+text-transform: capitalize;
+margin-bottom: 30px;
+}
+table tr td{
+	/*width: 11%;*/
+	padding: 20px;
+}
+strong{
+	font-weight: bold;
+}
+.img-circle{
+	width: 46px;
+	border-radius: 50%;
+}
+.user_name{
+	color: rgba(117, 134, 151);
+	font-size: 13px;
+	font-weight: 700;
+
+}
